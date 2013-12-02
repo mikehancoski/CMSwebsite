@@ -14,9 +14,13 @@ you can access the site by going to localhost/CMSEXAMPLE/index.php
 
 
 Simple instructions 
+
 install WAMP
+
 Cut and paste the createbasicdb.sql into phpmyadmin (localhost/phpmyadmin click SQL)
+
 open the file includes/constants with any text editor and add you sql user name and password 
+
 open anybrowser and navigate to localhost/cmsexample/
 
 

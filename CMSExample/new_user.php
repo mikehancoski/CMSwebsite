@@ -19,7 +19,7 @@ if(isset($_POST['submit'])){
     $dup_query = "SELECT username FROM users WHERE username='{$username}'";
     $dup = mysql_query($dup_query,$connection);
     if($found_dup = mysql_fetch_array($dup)){
-        $message .= 'Found duplicate user, Please select a diffrent username <br/><br/>';
+        $message .= 'Found duplicate user, Please select a different username <br/><br/>';
     }
     
     

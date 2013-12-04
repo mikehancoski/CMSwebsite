@@ -1,7 +1,7 @@
 #################
 ## Eclipse
 #################
-constants.php
+
 *.pydevproject
 .project
 .metadata

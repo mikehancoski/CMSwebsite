@@ -19,7 +19,11 @@
                 <td id="page">
                     <h2>
                         <?php if($sel_subject != NULL){
-                        echo $sel_subject['menu_name'];
+                                echo $sel_subject['menu_name'];
+                                if (isset($con_page['menu_name'])){
+                                 echo   " - " . $con_page['menu_name'];
+                                }
+                        
                         }else{
                             echo $con_page['menu_name'];
                         } ?>

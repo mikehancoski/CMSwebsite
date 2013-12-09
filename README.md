@@ -23,5 +23,5 @@ open the file includes/constants with any text editor and add you sql user name 
 
 open anybrowser and navigate to localhost/cmsexample/
 
-
+//kennethwestervelt reporting in. Feel free to delete this.
 

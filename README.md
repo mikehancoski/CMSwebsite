@@ -1,27 +1,37 @@
 CMSwebsite
 ==========
 
-basic CMS website
+If you have trouble with these instructions email me Mikehancoski@gmail.com
+
+
+Also let me know if something does not make sense in the readme
+
+
 Requiers PHP5+ and mysql and a webserver I use apache but that should not matter
 
-The basic setup Requires you to copy the CMSEXAMPLE directory into the root folder of your web server IE www or htdocs ect
-you can access the site by going to localhost/CMSEXAMPLE/index.php
+The basic setup Requires you to Make an alias pointing localhost/CMSexample to the CMSexample directory where the repository is stored 
 
 - to Make the base Data base use the createbasicdb.sql script, this will create a user with the name 'user1' and password 'password' you can use this account to create new users
 
 
-- to get the sql connection working you must edit the includes/constants.php to reflect you sql settings you must enter your mysql user name and password
+- to get the sql connection working you run the make.bat or make.sh
 
 
-Simple instructions 
+Simple instructions - Windows users
 
-install WAMP
+Install WAMP
 
-Cut and paste the createbasicdb.sql into phpmyadmin (localhost/phpmyadmin click SQL)
+Cut and paste the createbasicdb.sql into phpmyadmin (localhost/phpmyadmin click SQL >> paste data >> click go)
 
-open the file includes/constants with any text editor and add you sql user name and password 
+Set the Alias to point to repository (Create the repository if you have not done this)
 
-open anybrowser and navigate to localhost/cmsexample/
+Run make.bat enter your SQL User name and password 
+
+open anybrowser and navigate to localhost/CMSexample/
+
+If you do not see something simlar to mikeh.us email me
+
+Enter your name below if you are going to be working on this project
 
 //kennethwestervelt reporting in. Feel free to delete this.
 

@@ -16,4 +16,4 @@ define('DB_PASS', '$password');
 define('DB_NAME', 'demo_db');
 
 
-?>" > CMSexample/includes/constants.php
+?>" > CMSExample/includes/constants.php

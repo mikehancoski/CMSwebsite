@@ -34,7 +34,8 @@ If you do not see something simlar to mikeh.us email me
 
 Enter your name below if you are going to be working on this project
 
-//kennethwestervelt reporting in. Feel free to delete this.
 
-//papruitt backend developer...
 // DERP COMMIT HERE 
+
+
+MORE DERPING
